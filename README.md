@@ -9,7 +9,9 @@ This project utilizes **Flask + Three.js + OpenStreetMap** to fetch building, ro
 - 🚗 **3D Route Navigation** powered by OSRM  
 - 🏙 **Bounding Box Support** for fetching area-specific data  
 
-![3D Map Preview]([https://raw.githubusercontent.com/your-username/your-repo/main/static/map-preview.png](https://github.com/Thevi99/Map-Model-3D/blob/main/%E0%B8%AA%E0%B8%81%E0%B8%A3%E0%B8%B5%E0%B8%99%E0%B8%8A%E0%B9%87%E0%B8%AD%E0%B8%95%202025-01-30%20014308.png))
+
+![3D Map Preview](https://raw.githubusercontent.com/Thevi99/Map-Model-3D/refs/heads/main/%E0%B8%AA%E0%B8%81%E0%B8%A3%E0%B8%B5%E0%B8%99%E0%B8%8A%E0%B9%87%E0%B8%AD%E0%B8%95%202025-01-30%20014308.png))
+
 
 
 ## 🔧 Installation  
