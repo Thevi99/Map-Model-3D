@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Map Viewer</title>
+
+    <!-- Load Leaflet (for 2D map) -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+    <script type="module">
+        import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.128.0/examples/jsm/controls/OrbitControls.js';
+        window.OrbitControls = OrbitControls; // Make OrbitControls globally accessible
+    </script>
+    
+    <script defer src="{{ url_for('static', filename='map3d.js') }}"></script>
+    
+
+
+    <style>
+        #map-container { width: 100vw; height: 100vh; }
+    </style>
+</head>
+<body>
+    <h1>3D Map Viewer</h1>
+    <div id="map-container"></div>
+</body>
+</html>
