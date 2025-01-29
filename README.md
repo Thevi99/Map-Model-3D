@@ -15,3 +15,5 @@ git clone https://github.com/your-username/3D-Map-Navigation.git
 cd 3D-Map-Navigation
 pip install -r requirements.txt
 python main.py
+
+![3D Map Preview]([https://raw.githubusercontent.com/your-username/your-repo/main/static/map-preview.png](https://github.com/Thevi99/Map-Model-3D/blob/main/%E0%B8%AA%E0%B8%81%E0%B8%A3%E0%B8%B5%E0%B8%99%E0%B8%8A%E0%B9%87%E0%B8%AD%E0%B8%95%202025-01-30%20014308.png))
