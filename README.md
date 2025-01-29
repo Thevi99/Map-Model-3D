@@ -1,15 +1,15 @@
-# 3D Map Navigation 🏙🚀
+# 3D Map Navigation 🏙🚀  
 
-## 📌 Overview
-โครงการนี้ใช้ **Flask + Three.js + OpenStreetMap** เพื่อดึงข้อมูลอาคาร, ถนน และเส้นทางจาก Overpass API และแสดงผลเป็น **โมเดลแผนที่ 3D** 🚀
+## 📌 Overview  
+This project utilizes **Flask + Three.js + OpenStreetMap** to fetch building, road, and route data from the Overpass API and visualize them as a **3D map model** 🚀  
 
-## 🛠 Features
-- 🌍 **แสดงแผนที่ 3D** จาก OSM
-- 🏗 **สร้างอาคาร 3D** จาก Overpass API
-- 🚗 **นำทางเส้นทาง 3D** ด้วย OSRM
-- 🏙 **รองรับ Bounding Box** สำหรับการดึงข้อมูลเฉพาะพื้นที่
+## 🛠 Features  
+- 🌍 **3D Map Visualization** from OpenStreetMap  
+- 🏗 **3D Building Generation** using Overpass API  
+- 🚗 **3D Route Navigation** powered by OSRM  
+- 🏙 **Bounding Box Support** for fetching area-specific data  
 
-## 🔧 Installation
+## 🔧 Installation  
 ```sh
 git clone https://github.com/your-username/3D-Map-Navigation.git
 cd 3D-Map-Navigation
