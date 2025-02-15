@@ -16,7 +16,7 @@ This project utilizes **Flask + Three.js + OpenStreetMap** to fetch building, ro
 
 ## 🔧 Installation  
 ```sh
-git clone https://github.com/your-username/3D-Map-Navigation.git
+git clone https://github.com/Thevi99/3D-Map-Navigation.git
 cd 3D-Map-Navigation
 pip install -r requirements.txt
 python main.py
